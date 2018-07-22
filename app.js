@@ -183,6 +183,11 @@
 
 // //   }
 // // }
+window.onresize = function(event) {
+  ww = window.innerWidth,
+  wh = window.innerHeight;
+  init()
+};
 var canvas = document.getElementById("mycanvas");
 var ctx = canvas.getContext("2d");
 var ww = window.innerWidth,

@@ -1,13 +1,4 @@
-div {
-  height: 60vh;
-  width: 60vw;
-}
-canvas {
-  /* width: 30%;
-  height: 30%; */
-  /* width: 150px;
-  height: 150px; */
-  border: 1px solid black;
-  /* float: right;
-  margin-right: 1000px; */
+*{
+  margin: 0;
+  padding: 0;
 }
